@@ -16,3 +16,10 @@
 #main-nav ul li a {
   padding: 0.4rem;
 }
+
+#home-articles .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-articles .articles-container > *:first-child {
+}
